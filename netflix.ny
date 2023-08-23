@@ -1,7 +1,7 @@
 ;nyquist plug-in
 ;version 4
 ;type analyze
-;name "Podcast Check"
+;name "Netflix-Check"
 ;maxlen 2143260000
 ;debugflags trace
 ;author "Philip Collier"

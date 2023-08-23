@@ -1,7 +1,7 @@
 ;nyquist plug-in
 ;version 4
 ;type analyze
-;name "Podcast Check"
+;name "Apple-Check"
 ;maxlen 2143260000
 ;debugflags trace
 ;author "Philip Collier"
