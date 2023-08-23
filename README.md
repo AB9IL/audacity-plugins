@@ -1,6 +1,8 @@
 # audacity-plugins
 Analysis plugins for the Audacity audio editor (and its forks  Audicium, Tenacity, etc)
 
+![Audacity Nyquist Plugins](audacity-plugin.jpg)
+
 ## Audio Analysis Tools for Content Creators
 
 Podcasters, audiobook narrators, and vloggers - don't get your uploads rejected or forcibly adjusted by YouTube, SoundCloud, ACX, Amazon, or other media platforms! Use these nyquist plugins to evaluate your audio levels for podcasts, audiobooks, or other uploads. I have created specific analysis plugins which tell you your peak and average loudness (dB LUFS), and whether they meet the applicable technical standards. They also indicate the residual background noise level, which is a quality factor on certain platforms. ACX is especially strict about levels and background noise.
