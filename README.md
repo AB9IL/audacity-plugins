@@ -23,13 +23,18 @@ These audio analysis plugins are Nyquist scripts which are usable in Audacity an
 #### Installation 
 
 1. Clone this git repository.
-2. Copy the plugins into the proper plugin directory used by your editor.
+2. Use the built-in installer in **Tools > Nyquist Plug-in Installer**
+3. If not using the installer, manually copy the plugins into the proper directory used by Audacity.
 ```
+Linux:
 /usr/share/audacity/plug-ins
+
+Windows:
+Users\<username>\AppData\Roaming\audacity\Plug-Ins
 ```
 
-3. Open Audacity; navigate to the menu **Tools** > **Add / Remove Plug-Ins**
-4. Select and **Enable** the desired plugins (i.e. ACX-Check, YouTube-Check).
+4. Open Audacity; navigate to the menu **Tools** > **Add / Remove Plug-Ins**
+5. Select and **Enable** the desired plugins (i.e. ACX-Check, YouTube-Check).
 
 #### Usage 
 
