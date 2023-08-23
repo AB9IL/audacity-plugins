@@ -1,7 +1,7 @@
 # audacity-plugins
 Analysis plugins for the Audacity audio editor (and its forks  Audicium, Tenacity, etc)
 
-![Audacity Nyquist Plugins](audacity-plugin.jpg)
+[![Audacity Nyquist Plugins](audacity-plugin.jpg)](audacity-plugin_thb.jpg)
 
 ## Audio Analysis Tools for Content Creators
 
