@@ -56,20 +56,26 @@
 (defun check-peak (peak)
   ;;; Return Pass, fail or warning.
   ;;; Peak too low is unlikely, but indicate the problem.
-  (if (> peak -2.99)
+  (if (> peak -3.00)
       "Fail (too high - Peaks must be no higher than -3 dB)"
       (if (< peak -6)
-          "Warning (too low - may be overly compressed or too quiet.)"
-          "Pass")))
+          (if (< peak -9)
+              "Fail (too low - Peaks should be between -6 and -3 dB)"
+                  "Warning (low - Peaks should be -6 and -3 dB.)")
+      "Pass (-3 +0/- 3 dB)")))
 
 
 (defun check-rms (rms)
   ;;; Return Pass or Fail.
-  (if (> rms -17.99)
-      "Fail (too loud - RMS must be in range -23 to -18 dB)"
-      (if (< rms -23)
-          "Fail (too quiet - RMS must be in range -23 to -18 dB)"
-          "Pass")))
+  (if (> rms -18.00)
+      (if (> rms -16.00)
+      "Fail (too loud - RMS should range -23 to -18 dB)"
+      "Warning (too loud RMS should range -23 to -18 dB)")
+  (if (< rms -23.00)
+          (if (< rms -25.00)
+              "Fail (too quiet - RMS should range -23 to -18 dB)"
+                  "Warning (too quiet - RMS should range -23 to -18 dB)")
+      "Pass ( -20.5 +/- 2.5 dB)")))
 
 
 (defun check-floor (floor)
