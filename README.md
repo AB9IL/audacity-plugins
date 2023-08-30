@@ -32,7 +32,7 @@ Linux:
     /usr/share/audacity/plug-ins
 
 On macOS:
-		/Applications/Audacity/plug-ins
+    /Applications/Audacity/plug-ins
 
 Windows:
     Users\<username>\AppData\Roaming\audacity\Plug-Ins
