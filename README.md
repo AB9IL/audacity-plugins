@@ -31,7 +31,7 @@ These audio analysis plugins are Nyquist scripts which are usable in Audacity an
 Linux:
     /usr/share/audacity/plug-ins
 
-On macOS:
+macOS:
     /Applications/Audacity/plug-ins
 
 Windows:
