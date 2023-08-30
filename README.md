@@ -1,7 +1,7 @@
 # audacity-plugins
 Analysis plugins for the Audacity audio editor (and its forks  Audicium, Tenacity, etc)
 
-![Audacity Nyquist Plugins](audacity-plugin_thb.jpg)
+![Audacity Nyquist Plugins](audacity-plugin2.jpg)
 
 ## Audio Analysis Tools for Content Creators
 
@@ -29,10 +29,13 @@ These audio analysis plugins are Nyquist scripts which are usable in Audacity an
 3. If not using the installer, manually copy the plugins into the proper directory used by Audacity.
 ```
 Linux:
-/usr/share/audacity/plug-ins
+    /usr/share/audacity/plug-ins
+
+On macOS:
+		/Applications/Audacity/plug-ins
 
 Windows:
-Users\<username>\AppData\Roaming\audacity\Plug-Ins
+    Users\<username>\AppData\Roaming\audacity\Plug-Ins
 ```
 
 4. Open Audacity; navigate to the menu **Tools** > **Add / Remove Plug-Ins**
