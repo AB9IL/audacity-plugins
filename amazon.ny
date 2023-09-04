@@ -84,11 +84,12 @@
   (if (> floor -60)
       (if (> floor -54)
       "Fail (Noise floor should be below -60 dB)"
-          "Warning (Noise floor should be below -60 dB)"))
-  (if (< floor -59.99)
-          (if (< floor -69.99)
+          "Warning (Noise floor should be below -60 dB)")
+  (if (< floor -63)
+      (if (< floor -69)
               "Excellent (Noise floor is very low.)"
-              "Pass (Noise floor is low.)")))
+              "Pass (Noise floor is low.)")
+      "Pass")))
 
 
 (defun check-rate ()
